@@ -35,7 +35,7 @@ public class GTM {
 		while (k <5) 
 		{ if (x.toLowerCase().equals(mn.toLowerCase())== false) 
 		{
-			
+			System.out.print(" guess an alphabet ::  ");
 			Scanner o = new Scanner(System.in);
 			p = o.next().charAt(0);
 			String b =v.verfy(mn, p, x);
